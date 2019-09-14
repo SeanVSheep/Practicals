@@ -189,7 +189,7 @@ Define the following **methods**:
     `Gibson L-5 CES (1922) : $16,035.40`
 
 -   **`get_age()`** - which returns how old the guitar is in years (e.g.
-    the L-5 is 2018 - 1922 = 96)
+    the L-5 is 2019 - 1922 = 97)
 
 -   **`is_vintage()`** - which returns True if the guitar is 50 or more
     years old, False otherwise  
@@ -204,12 +204,12 @@ already knows (like age, year, etc.).
 Now write a **guitar_test.py** program with at least enough code to
 test that the last two methods work as expected.  
 So to test that the **get_age()** method works, you could test that the
-above example guitar does indeed output 95 as expected. Here is some
+above example guitar does indeed output 97 as expected. Here is some
 sample output for testing two guitars where the second is called 
 Another Guitar and has year=2012:
 
-    Gibson L-5 CES get_age() - Expected 96. Got 96
-    Another Guitar get_age() - Expected 6. Got 6
+    Gibson L-5 CES get_age() - Expected 97. Got 97
+    Another Guitar get_age() - Expected 7. Got 7
     Gibson L-5 CES is_vintage() - Expected True. Got True
     Another Guitar is_vintage() - Expected False. Got False
 
